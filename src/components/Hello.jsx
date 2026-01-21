@@ -1,5 +1,8 @@
 function Hello() {
-  const name = "SAPUMAL";
-  return <h1> Hello component {name} </h1>;
+  return (
+    <div>
+      <h1> Hello component </h1>;
+    </div>
+  );
 }
 export default Hello;
