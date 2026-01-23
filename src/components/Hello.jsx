@@ -1,7 +1,11 @@
-function Hello() {
+function Hello(prop) {
   return (
     <div>
-      <h1> Hello component </h1>;
+      <h1>
+        {" "}
+        {prop.message} {prop.name}
+      </h1>
+      ;
     </div>
   );
 }
