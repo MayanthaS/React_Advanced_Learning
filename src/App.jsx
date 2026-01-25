@@ -1,10 +1,14 @@
 import Hello from "./components/Hello";
 
 function App() {
-  const SeatNumbers = [1, 4, 7];
+  const person = {
+    name: "Mayantha",
+    message: "Hi Friends",
+    SeatNumbers: [1, 4, 4],
+  };
   return (
     <div className="App">
-      <Hello name="Mayantha" message="Hi there!" SeatNumbers={SeatNumbers} />
+      <Hello person={person} />
     </div>
   );
 }
