@@ -4,7 +4,7 @@ export default function Fruits() {
   return (
     <div>
       {fruits.map((fruit) => (
-        <h1 key={fruit}>{fruit}</h1>
+        <li>{fruit}</li>
       ))}
     </div>
   );
